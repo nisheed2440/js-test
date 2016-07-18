@@ -1,0 +1,26 @@
+{
+  "name": "js-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "karma": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.0",
+    "karma-mocha": "^1.1.1",
+    "karma-mocha-reporter": "^2.0.4",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-sinon": "^1.0.5",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  }
+}
